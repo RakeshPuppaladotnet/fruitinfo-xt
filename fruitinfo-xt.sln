@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fruitinfo-xt", "fruitinfo-xt\fruitinfo-xt.csproj", "{1DCD9AA6-49B9-4D73-902D-124E0111A87A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fruit-family-xt.api", "fruit-family-xt\fruit-family-xt.api.csproj", "{72B505E4-EEAA-4AD3-AB1C-8E20923EDA5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fruit-family-xt.test", "fruit-family-xt.test\fruit-family-xt.test.csproj", "{6A7DFD44-61CA-44AB-9B92-E5068B13F524}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fruit-family-xt-datastore", "fruit-family-xt-datastore\fruit-family-xt-datastore.csproj", "{5FECEF42-9DBE-4FA6-A72B-3A214C6001E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fruit-family-xt-service-query", "fruit-family-xt-service-query\fruit-family-xt-service-query.csproj", "{82FAC306-C817-4FEE-B695-2CB3777ED6D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1DCD9AA6-49B9-4D73-902D-124E0111A87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DCD9AA6-49B9-4D73-902D-124E0111A87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DCD9AA6-49B9-4D73-902D-124E0111A87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DCD9AA6-49B9-4D73-902D-124E0111A87A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B505E4-EEAA-4AD3-AB1C-8E20923EDA5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B505E4-EEAA-4AD3-AB1C-8E20923EDA5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B505E4-EEAA-4AD3-AB1C-8E20923EDA5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B505E4-EEAA-4AD3-AB1C-8E20923EDA5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7DFD44-61CA-44AB-9B92-E5068B13F524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7DFD44-61CA-44AB-9B92-E5068B13F524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7DFD44-61CA-44AB-9B92-E5068B13F524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7DFD44-61CA-44AB-9B92-E5068B13F524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FECEF42-9DBE-4FA6-A72B-3A214C6001E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FECEF42-9DBE-4FA6-A72B-3A214C6001E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FECEF42-9DBE-4FA6-A72B-3A214C6001E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FECEF42-9DBE-4FA6-A72B-3A214C6001E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FAC306-C817-4FEE-B695-2CB3777ED6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FAC306-C817-4FEE-B695-2CB3777ED6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FAC306-C817-4FEE-B695-2CB3777ED6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FAC306-C817-4FEE-B695-2CB3777ED6D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
